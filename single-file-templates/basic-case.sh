@@ -10,7 +10,7 @@ done
 
 echo "-a flag is set to $a_value"
 
-if  [ "$b_value" == "true" ]; then
+if  [ -n "$b_value" ]; then
 	echo "if -b flag is present we will print this"
 fi
 
